@@ -1,0 +1,23 @@
+.square {
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide-span {
+    display: none;
+}
+
+.show-span {
+    display: inline;
+}
+
+#square-container {
+    display: flex;
+    flex-wrap: wrap;
+}
